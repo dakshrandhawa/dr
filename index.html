@@ -13,13 +13,26 @@
 
 
     <script>
-      //Your web app's Firebase configuration
-      
-      // // Initialize Firebase
-      // firebase.initializeApp(firebaseConfig);
+     <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
 
-    // Initialize Firebase
-    firebase.initializeApp(firebaseConfig);
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDOHnomSUtcg_aqX1ufDPUg7iQah2SF2Ys",
+    authDomain: "multiplayer-85e5e.firebaseapp.com",
+    databaseURL: "https://multiplayer-85e5e-default-rtdb.firebaseio.com",
+    projectId: "multiplayer-85e5e",
+    storageBucket: "multiplayer-85e5e.appspot.com",
+    messagingSenderId: "643712786918",
+    appId: "1:643712786918:web:e909a3bed9456db8407627"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
     </script>
 
     <script src="js/Player.js"></script>
